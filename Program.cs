@@ -1,6 +1,7 @@
 ﻿double comprimentoescada, anguloeradiano, anguloemgraus, altura;
 
-   Console.Write("informe o comprimento da escada");
+   Console.Clear();
+   Console.Write("informe o comprimento da escada:   ");
    comprimentoescada = Convert.ToDouble(Console.ReadLine());
 
    Console.Write("Informe o angulo da escada em graus:   ");
@@ -10,4 +11,4 @@
 
    altura = comprimentoescada * Math.Sin(anguloeradiano);
 
-   Console.WriteLine($"{altura:N2}");
+   Console.WriteLine($"A escada alcanca aproximadamente {altura:N2}");
